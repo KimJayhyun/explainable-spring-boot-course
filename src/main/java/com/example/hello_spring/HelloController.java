@@ -46,7 +46,6 @@ public class HelloController {
         return newUser;
     }
 
-
     @GetMapping("/hello")
     public String hello() {
         return "Hello World! from Spring Boot";
